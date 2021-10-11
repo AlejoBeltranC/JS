@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cronometro {
+    width: 40%;
+    height: 60%;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(83,199,201,1) 100%);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tablero{
+    width: 60%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tablero p {
+    color: white;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    width: 60%;
+    height: 20%;
+    background-color: #1934da;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    border-top: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.botones button{
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid rgba(0, 0, 0, 0.9);
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.botones button:hover{
+    background-color: white;
+    color: red;
+}
